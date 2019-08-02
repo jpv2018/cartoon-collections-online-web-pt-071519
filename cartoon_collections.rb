@@ -22,7 +22,7 @@ def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
   found = ""
   if snacks.any? {|cheese| cheese_types.find cheese}
-  return "cheddar"
+  
   else 
     return nil
   end
